@@ -9509,6 +9509,8 @@ spec:
     targetPort: 8080
   selector:
     app.kubernetes.io/name: argocd-server
+  # Define a function (service) LoadBalancer 
+  type: LoadBalancer
 ---
 apiVersion: v1
 kind: Service
