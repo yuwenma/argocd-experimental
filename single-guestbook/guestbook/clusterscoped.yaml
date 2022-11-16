@@ -1,0 +1,6 @@
+apiVersion: addons.configdelivery.anthos.io/v1alpha1
+kind: ArgoCD
+metadata:
+  name: argocd-test-to-delete
+spec:
+  version: 2.4.0
